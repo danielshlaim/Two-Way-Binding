@@ -1,0 +1,18 @@
+<div [ngSwitch]="item.carName">
+    <div   *ngSwitchCase="'BMW'">
+        <h1  class="text-info bg-dark"> BMW</h1>
+        <img src="./assets/image/bmw.jpg"  class="figure-img img-fluid rounded" alt="">
+    </div>
+    <div   class="figure"  *ngSwitchCase="'Mazda'">
+        <h1 class="text-warning bg-dark" > Mazda </h1>
+        <img src="./assets/image/mazda.jpg"   class="figure-img img-fluid rounded" width="500" alt="">
+    </div>
+    <div  class="figure"  *ngSwitchCase="'Maserati'">
+        <h1 class="text-white bg-dark"   > Maserati </h1>
+        <img   src="./assets/image/maserati.jpg" class="figure-img img-fluid rounded"  alt=""  width="500">
+    </div>
+    <div   class="figure" *ngSwitchCase="'Skoda-Fabia'">
+        <h1 class="text-white-50 bg-dark"  > Skoda-Fabia </h1>
+        <img  class="w-auto p-3"  src="./assets/image/skoda.jpg"   class="figure-img img-fluid rounded"alt="" >
+    </div>
+</div>
